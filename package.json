@@ -1,0 +1,21 @@
+{
+  "name": "douban-test",
+  "version": "1.0.0",
+  "description": "douban-test",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index"
+  },
+  "keywords": [
+    "node",
+    "puppeteer",
+    "child_process"
+  ],
+  "author": "xuejun",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "mongoose": "^5.6.11",
+    "puppeteer": "^1.19.0"
+  }
+}
