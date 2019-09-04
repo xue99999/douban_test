@@ -20,7 +20,7 @@ const Movie = mongoose.model('Movie')
         ]
     })
 
-    console.log('没有video的电影个数 =>', movies)
+    console.log('没有video的电影个数 =>', movies.length)
 
     child.send(movies)
     

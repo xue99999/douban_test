@@ -58,7 +58,6 @@ process.on('message', async movies => {
         process.send(data)
     }
 
-    await browser.close();
-
     process.exit(0)
+    await browser.close();
 })
