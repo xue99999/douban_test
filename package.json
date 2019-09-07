@@ -4,7 +4,7 @@
   "description": "douban-test",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/index"
+    "start": "node start"
   },
   "keywords": [
     "node",

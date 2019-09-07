@@ -8,6 +8,8 @@
 
 
 ## 装饰器（重点）
+> 装饰器跑的时候需要配置babel环境，请参考package.json, .babelrc, start.js
+> test.js 为装饰器的简单demo
 想实现的效果
 ``` javascript
     @controller('/api/v0/movies')
@@ -22,8 +24,6 @@
     }
 ```
 
-> test.js 为装饰器的简单demo
-
 ### glob模块
 初始化数据库的时候用到了
 引入routes模块用到了
@@ -32,3 +32,12 @@
 ```
 
 引入文件，自己去执行自己的代码
+
+## 项目如何启动
+``` javascript
+    npm run start
+```
+
+## 其他说明
+- demo文件夹是为了配合test/globTest使用的
+- dec.js 是为了测试装饰器使用的, 运行时需要借助babel来实现， 在start.js引入就可以使用
